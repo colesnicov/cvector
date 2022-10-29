@@ -9,7 +9,7 @@ comment "(cvector) Dynamicky kontejner."
 
 	config CVECTOR_INC_CAPACITY
 	    int "O kolik zvetsovat kontejer."
-	    default n
+	    default 2
 	    help
 	    	"Tolik bude alokovano pameti pro kontejner pri jeho zvetseni/zmenseni."
 
