@@ -1,0 +1,24 @@
+menu "CVECTOR"
+comment "(cvector) Dynamicky kontejner."
+
+	config CVECTOR_INIT_CAPACITY
+	    int "Pocatecni velikost kontajneru."
+	    default 2
+	    help
+	        "Tolik bude alokovano pameti pro kontejner pri jeho inicializaci/vytvoreni."
+
+	config CVECTOR_INC_CAPACITY
+	    int "O kolik zvetsovat kontejer."
+	    default n
+	    help
+	    	"Tolik bude alokovano pameti pro kontejner pri jeho zvetseni/zmenseni."
+
+	config CVECTOR_DEBUG
+	     bool "Vypisovat chyby?"
+	     help
+	     	"Vypisovat ladici chyby do standardniho vystupu (terminal)?"
+
+endmenu
+
+
+

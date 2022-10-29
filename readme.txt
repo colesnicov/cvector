@@ -1,0 +1,1 @@
+Implementace dynamickeho kontejenu v C.
